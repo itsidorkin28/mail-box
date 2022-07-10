@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mail-box/static/css/main.534d8ccc.css",
+    "main.js": "/mail-box/static/js/main.b0dbdb80.js",
+    "static/js/787.4af989f6.chunk.js": "/mail-box/static/js/787.4af989f6.chunk.js",
+    "index.html": "/mail-box/index.html",
+    "main.534d8ccc.css.map": "/mail-box/static/css/main.534d8ccc.css.map",
+    "main.b0dbdb80.js.map": "/mail-box/static/js/main.b0dbdb80.js.map",
+    "787.4af989f6.chunk.js.map": "/mail-box/static/js/787.4af989f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.534d8ccc.css",
+    "static/js/main.b0dbdb80.js"
+  ]
+}
