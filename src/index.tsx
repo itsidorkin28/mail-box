@@ -10,6 +10,7 @@ import Trash from './components/screens/Trash/Trash'
 import Spam from './components/screens/Spam/Spam'
 import Drafts from './components/screens/Drafts/Drafts'
 import NotFound from './components/screens/NotFound/NotFound'
+import Custom from './components/screens/Custom/Custom'
 
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement,
@@ -24,7 +25,8 @@ root.render(
 				<Route path='/trash' element={<Trash />} />
 				<Route path='/spam' element={<Spam />} />
 				<Route path='/drafts' element={<Drafts />} />
-				<Route path="*" element={<NotFound />} />
+				<Route path='/custom/:customId' element={<Custom />} />
+				<Route path='*' element={<NotFound />} />
 			</Routes>
 		</MainProvider>
 	</React.StrictMode>,

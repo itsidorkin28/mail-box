@@ -102,11 +102,21 @@ module.exports = {
 					},
 				},
 
-				'.air-block': {
-					borderRadius: theme('borderRadius.layout'),
-					backgroundColor: theme('colors.gray.950'),
+				'.modal-window': {
+					backgroundColor: 'rgba(0,0,0,0.4)',
 					color: theme('colors.white'),
 					boxShadow: theme('boxShadow.lg'),
+					height: '100vh',
+					width: '100vw',
+					position: 'fixed',
+					top: 0,
+					left: 0,
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					transition: '0.5s',
+					pointerEvents: 'none',
+					opacity: 0,
 				},
 			})
 			addUtilities({

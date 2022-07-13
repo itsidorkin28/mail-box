@@ -1,0 +1,11 @@
+.modal {
+    @apply modal-window;
+    .content {
+        @apply p-20 rounded-xl bg-white h-1/2 w-1/2 text-gray-600;
+    }
+}
+
+.active {
+    @apply opacity-100;
+    pointer-events: all;
+}

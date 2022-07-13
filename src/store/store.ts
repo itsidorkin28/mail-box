@@ -6,3 +6,6 @@ export const store = configureStore({
 })
 
 export type RootStateType = ReturnType<typeof store.getState>
+
+// @ts-ignore
+window.store = store
